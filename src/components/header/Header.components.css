@@ -1,0 +1,22 @@
+.header{
+    background-color: aqua;
+    border-bottom: 1px solid gray;
+   
+    z-index: -10;
+    
+    
+}
+.head{
+    text-align: left;
+    margin-left: 5rem;
+    padding-right: 3rem;
+    padding-top: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+.dark{
+    background-color: var(--toggle-background);
+    color: var(--button-color);
+    transition: 1s all ease;
+    /* z-index: 100; */
+}

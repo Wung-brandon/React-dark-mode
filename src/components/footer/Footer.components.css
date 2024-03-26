@@ -1,0 +1,17 @@
+.footer{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: var(--footer-bg);
+    padding: 1.5rem;
+    border-top: 1px solid gray;
+    
+}
+.dark{
+    background-color: var(--toggle-background);
+    color: var(--button-color);
+    transition: 1s all ease;
+    /* z-index: 100; */
+}
